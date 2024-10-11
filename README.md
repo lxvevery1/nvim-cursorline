@@ -12,12 +12,21 @@ https://user-images.githubusercontent.com/42740055/163586272-17560f83-9195-4cb4-
 
 ## Installation
 
-Install with your favorite plugin manager.
+### Lazy.nvim
 
-## Usage
 
 ```lua
-require('nvim-cursorline').setup {
+{
+    "lxvevery1/nvim-cursorline",
+}
+```lua
+
+```
+
+## Configuration options
+
+```lua
+{
   cursorline = {
     enable = true,
     timeout = 1000,
@@ -25,19 +34,12 @@ require('nvim-cursorline').setup {
   },
   cursorword = {
     enable = true,
-    timeout = 1000,
+    timeout = 1000,         -- <-- this thing is added
     min_length = 3,
     hl = { underline = true },
   }
 }
 ```
-
-## Acknowledgments
-
-Thanks goes to these people/projects for inspiration:
-
-- [delphinus/vim-auto-cursorline](https://github.com/delphinus/vim-auto-cursorline)
-- [itchyny/vim-cursorword](https://github.com/itchyny/vim-cursorword)
 
 ## License
 
