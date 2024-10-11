@@ -19,7 +19,7 @@ https://user-images.githubusercontent.com/42740055/163586272-17560f83-9195-4cb4-
 {
     "lxvevery1/nvim-cursorline",
 }
-```lua
+```
 
 ```
 
